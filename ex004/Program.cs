@@ -4,7 +4,7 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.WriteLine("Digite o primeiro número do intervalo: ");
         int numInicial = Convert.ToInt32(Console.ReadLine());
