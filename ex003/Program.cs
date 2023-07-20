@@ -4,7 +4,7 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.WriteLine("Informe o limite inferior do intervalo:");
         int limiteInferior = Convert.ToInt32(Console.ReadLine());
