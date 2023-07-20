@@ -4,7 +4,7 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.Write("Digite o nome de uma disciplina: ");
         string disciplina = Console.ReadLine();
