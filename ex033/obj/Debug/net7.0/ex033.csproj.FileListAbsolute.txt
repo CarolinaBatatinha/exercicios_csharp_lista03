@@ -1,0 +1,15 @@
+D:\Livro Algoritmos\resolucoes\lista03\ex033\bin\Debug\net7.0\ex033.exe
+D:\Livro Algoritmos\resolucoes\lista03\ex033\bin\Debug\net7.0\ex033.deps.json
+D:\Livro Algoritmos\resolucoes\lista03\ex033\bin\Debug\net7.0\ex033.runtimeconfig.json
+D:\Livro Algoritmos\resolucoes\lista03\ex033\bin\Debug\net7.0\ex033.dll
+D:\Livro Algoritmos\resolucoes\lista03\ex033\bin\Debug\net7.0\ex033.pdb
+D:\Livro Algoritmos\resolucoes\lista03\ex033\obj\Debug\net7.0\ex033.csproj.AssemblyReference.cache
+D:\Livro Algoritmos\resolucoes\lista03\ex033\obj\Debug\net7.0\ex033.GeneratedMSBuildEditorConfig.editorconfig
+D:\Livro Algoritmos\resolucoes\lista03\ex033\obj\Debug\net7.0\ex033.AssemblyInfoInputs.cache
+D:\Livro Algoritmos\resolucoes\lista03\ex033\obj\Debug\net7.0\ex033.AssemblyInfo.cs
+D:\Livro Algoritmos\resolucoes\lista03\ex033\obj\Debug\net7.0\ex033.csproj.CoreCompileInputs.cache
+D:\Livro Algoritmos\resolucoes\lista03\ex033\obj\Debug\net7.0\ex033.dll
+D:\Livro Algoritmos\resolucoes\lista03\ex033\obj\Debug\net7.0\refint\ex033.dll
+D:\Livro Algoritmos\resolucoes\lista03\ex033\obj\Debug\net7.0\ex033.pdb
+D:\Livro Algoritmos\resolucoes\lista03\ex033\obj\Debug\net7.0\ex033.genruntimeconfig.cache
+D:\Livro Algoritmos\resolucoes\lista03\ex033\obj\Debug\net7.0\ref\ex033.dll
