@@ -6,12 +6,12 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Informe um número:");
+        Console.WriteLine("Informe um número: ");
         int numero = Convert.ToInt32(Console.ReadLine());
 
         int soma = 0;
 
-        Console.WriteLine($"Os números de 1 até {numero} são:");
+        Console.WriteLine($"Os números de 1 até {numero} são: ");
         for (int i = 1; i <= numero; i++)
         {
             Console.WriteLine(i);
