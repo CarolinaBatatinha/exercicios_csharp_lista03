@@ -6,10 +6,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Informe o limite inferior do intervalo:");
+        Console.WriteLine("Informe o limite inferior do intervalo: ");
         int limiteInferior = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Informe o limite superior do intervalo:");
+        Console.WriteLine("Informe o limite superior do intervalo: ");
         int limiteSuperior = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine(
