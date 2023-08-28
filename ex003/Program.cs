@@ -6,9 +6,9 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Informe o limite inferior do intervalo:");
+        Console.WriteLine("Informe o limite inferior do intervalo: ");
         int limiteInferior = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Informe o limite superior do intervalo:");
+        Console.WriteLine("Informe o limite superior do intervalo: ");
         int limiteSuperior = Convert.ToInt32(Console.ReadLine());
 
         int soma = 0;
@@ -18,8 +18,6 @@ class Program
             soma += i;
         }
 
-        Console.WriteLine(
-            $"A soma de todos os números entre {limiteInferior} e {limiteSuperior} é igual a {soma}."
-        );
+        Console.WriteLine($"A soma de todos os números entre {limiteInferior} e {limiteSuperior} é igual a {soma}.");
     }
 }
