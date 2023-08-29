@@ -20,8 +20,6 @@ class Program
             }
         }
 
-        Console.WriteLine(
-            $"Dentro do intervalo entre {numInicial} e {numFinal} existem {contImpares} números ímpares."
-        );
+        Console.WriteLine($"Dentro do intervalo entre {numInicial} e {numFinal} existem {contImpares} números ímpares.");
     }
 }
