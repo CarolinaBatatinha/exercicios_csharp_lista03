@@ -13,7 +13,7 @@ class Program
 
         do
         {
-            numero = int.Parse(Console.ReadLine());
+            numero = Convert.ToInt32(Console.ReadLine());
 
             if (numero != 0)
             {
