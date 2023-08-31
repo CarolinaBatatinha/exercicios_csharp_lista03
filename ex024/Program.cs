@@ -21,6 +21,6 @@ class Program
             }
         } while (numero != 0);
 
-        Console.WriteLine("O produto dos números é: " + produto);
+        Console.WriteLine($"O produto dos números é igual a {produto}.");
     }
 }
