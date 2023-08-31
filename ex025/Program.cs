@@ -12,7 +12,7 @@ class Program
         for (int i = 1; i <= 10; i++)
         {
             Console.Write($"Digite o {i}º valor: ");
-            int valor = int.Parse(Console.ReadLine());
+            int valor = Convert.ToInt32(Console.ReadLine());
 
             if (valor >= 10 && valor <= 20)
             {
