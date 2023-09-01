@@ -15,9 +15,7 @@ class Program
         int alunosAdministracaoInformatica = 0;
         int alunosSistemasInformacao = 0;
 
-        Console.WriteLine(
-            "Digite o código do curso do aluno (1 - Administração, 2 - Administração com gestão em Informática, 3 - Sistemas de Informação)"
-        );
+        Console.WriteLine("Digite o código do curso do aluno (1 - Administração, 2 - Administração com gestão em Informática, 3 - Sistemas de Informação)");
         Console.WriteLine("Digite 0 para encerrar o programa.");
 
         int codigoCurso;
@@ -48,21 +46,13 @@ class Program
         } while (codigoCurso != 0);
 
         double porcentagemAdministracao = (double)alunosAdministracao / totalAlunos * 100;
-        double porcentagemAdministracaoInformatica =
-            (double)alunosAdministracaoInformatica / totalAlunos * 100;
+        double porcentagemAdministracaoInformatica = (double)alunosAdministracaoInformatica / totalAlunos * 100;
         double porcentagemSistemasInformacao = (double)alunosSistemasInformacao / totalAlunos * 100;
 
         Console.WriteLine("===== RESULTADOS =====");
         Console.WriteLine($"Total de alunos: {totalAlunos}");
-        Console.WriteLine(
-            $"Porcentagem de alunos em Administração: {porcentagemAdministracao}% ({alunosAdministracao})"
-        );
-        Console.WriteLine(
-            $"Porcentagem de alunos em Administração com gestão em Informática: {porcentagemAdministracaoInformatica}% ({alunosAdministracaoInformatica})"
-        );
-        Console.WriteLine(
-            $"Porcentagem de alunos em Sistemas de Informação: {porcentagemSistemasInformacao}% ({alunosSistemasInformacao})"
-        );
-        Console.ReadLine();
+        Console.WriteLine($"Porcentagem de alunos em Administração: {porcentagemAdministracao}% ({alunosAdministracao})");
+        Console.WriteLine($"Porcentagem de alunos em Administração com gestão em Informática: {porcentagemAdministracaoInformatica}% ({alunosAdministracaoInformatica})");
+        Console.WriteLine($"Porcentagem de alunos em Sistemas de Informação: {porcentagemSistemasInformacao}% ({alunosSistemasInformacao})");
     }
 }
