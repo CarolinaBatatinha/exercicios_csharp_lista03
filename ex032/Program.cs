@@ -45,7 +45,7 @@ class Program
 
         for (int i = 0; i < totalPessoas; i++)
         {
-            Console.WriteLine($"\nDados da pessoa {i + 1}:");
+            Console.WriteLine($"\nDados da pessoa {i + 1}: ");
 
             Console.Write("Idade: ");
             idade = int.Parse(Console.ReadLine());
