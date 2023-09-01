@@ -23,7 +23,7 @@ class Program
         do
         {
             Console.WriteLine("Informe seu voto:\n1, 2 ou 3 para os candidatos \n5 para voto nulo \n6 para voto em branco\n0 para encerrar o programa");
-            voto = int.Parse(Console.ReadLine());
+            voto = Convert.ToInt32(Console.ReadLine());
             switch (voto)
             {
                 case 1:
@@ -70,8 +70,8 @@ class Program
         double percentualNulos = (double)votosNulos / totalVotos * 100;
         double percentualBrancos = (double)votosBrancos / totalVotos * 100;
 
-        Console.WriteLine("Percentual de votos nulos: {0}%", percentualNulos.ToString("F2"));
-        Console.WriteLine("Percentual de votos em branco: {0}%\n", percentualBrancos.ToString("F2"));
+        Console.WriteLine("Percentual de votos nulos: {0}%", percentualNulos.ToString("F1"));
+        Console.WriteLine("Percentual de votos em branco: {0}%\n", percentualBrancos.ToString("F1"));
 
         Console.WriteLine("------------------------------------");
 
