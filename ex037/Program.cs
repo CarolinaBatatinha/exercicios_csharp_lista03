@@ -21,11 +21,11 @@ class Program
 
         do
         {
-            Console.WriteLine("Insira seu nome: ");
+            Console.Write("Insira seu nome: ");
             string nome = Console.ReadLine();
-            Console.WriteLine("Insira o valor do seu salário em reais (R$): ");
+            Console.Write("Insira o valor do seu salário em reais (R$): ");
             float salario = float.Parse(Console.ReadLine());
-            Console.WriteLine("Informe quantos filhos você tem: ");
+            Console.Write("Informe quantos filhos você tem: ");
             int qtdeFilhos = int.Parse(Console.ReadLine());
 
             somaSalarioGeral += salario;
@@ -50,7 +50,7 @@ class Program
                 somaSalarioOutros += salario;
             }
 
-            Console.WriteLine("Deseja cadastrar mais pessoas? (S/N)");
+            Console.Write("Deseja cadastrar mais pessoas? (S/N)");
             opcao = Console.ReadLine().ToUpper();
             Console.WriteLine();
         } while (opcao == "S");
