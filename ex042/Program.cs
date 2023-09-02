@@ -22,10 +22,8 @@ class Program
         int chutesAGol = 0;
         int evento;
         Console.WriteLine("Registro de eventos do jogo de futebol");
-        Console.WriteLine("Digite o código do evento (0 a 5), 0 para encerrar a partida:");
-        Console.WriteLine(
-            "0 - Fim da partida\n1 - Faltas cometidas\n2 - Faltas recebidas\n3 - Escanteios a Favor\n4 - Passes Errados \n5 - Chutes a gol"
-        );
+        Console.WriteLine("Digite o código do evento (0 a 5), 0 para encerrar a partida: ");
+        Console.WriteLine("0 - Fim da partida\n1 - Faltas cometidas\n2 - Faltas recebidas\n3 - Escanteios a Favor\n4 - Passes Errados \n5 - Chutes a gol");
 
         do
         {
