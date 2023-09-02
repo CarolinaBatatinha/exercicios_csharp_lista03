@@ -6,10 +6,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Informe o nome do cliente:");
+        Console.WriteLine("Informe o nome do cliente: ");
         string nomeCliente = Console.ReadLine();
 
-        Console.WriteLine("Informe o tamanho do conjunto (P - pequeno ou G - grande):");
+        Console.WriteLine("Informe o tamanho do conjunto (P - pequeno ou G - grande): ");
         string tamanhoConjunto = Console.ReadLine();
 
         Console.WriteLine("Informe a quantidade de conjuntos:");
