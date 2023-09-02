@@ -80,7 +80,7 @@ class Program
             totalMesas++;
 
             Console.WriteLine("-----------------------------------");
-            Console.WriteLine("Total da mesa: R$ {0:F2}", totalConta);
+            Console.WriteLine($"Total da mesa: R$ {totalConta:F2}");
             Console.WriteLine("-----------------------------------");
 
             Console.WriteLine("Deseja calcular a conta de outra mesa? (S/N)");
@@ -91,9 +91,9 @@ class Program
 
         Console.WriteLine("-----------------------------------");
         Console.WriteLine("RESUMO DAS CONTAS");
-        Console.WriteLine("Maior conta: R$ {0:F2}", maiorConta);
-        Console.WriteLine("Menor conta: R$ {0:F2}", menorConta);
-        Console.WriteLine("Média das contas: R$ {0:F2}", mediaContas);
+        Console.WriteLine($"Maior conta: R$ {maiorConta:F2}");
+        Console.WriteLine($"Menor conta: R$ {menorConta:F2}");
+        Console.WriteLine($"Média das contas: R$ {mediaContas:F2}");
         Console.WriteLine("-----------------------------------");
     }
 }
